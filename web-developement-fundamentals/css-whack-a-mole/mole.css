@@ -1,0 +1,113 @@
+/* Your code here */
+
+body {
+  background-color: #eceff4;
+}
+
+.pf {
+  margin: 0 auto;
+  width: 1140px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.wgs {
+  position: relative;
+  height: calc((262px + 220px) / 2.5);
+  width: calc((109px + 376px + 155px) / 2.5);
+  overflow: hidden;
+  display: inline-block;
+}
+
+.wgs:has(.wgs__mole-head--whacked) {
+  animation-name: whacked;
+  animation-duration: 0.25s;
+}
+
+.wgs__mole-head {
+  position: absolute;
+  top: 0;
+  left: calc(109px / 2.5);
+  height: calc(356px / 2.5);
+  width: auto;
+  transition: all 0.25s ease-out;
+}
+
+.wgs__dirt-pile {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: calc(220px / 2.5);
+  width: auto;
+}
+
+.wgs__mole-head--hidden {
+  margin-top: calc(482px / 2.5);
+}
+
+.wgs__mole-head--whacked {
+  animation-name: rotate;
+  animation-duration: 0.2s;
+}
+
+/* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
+.sb {
+  background-color: #2e3440;
+  /* border-bottom: 1px solid #333333; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  color: #eceff4;
+  display: flex;
+  font-size: 30px;
+  margin-bottom: 50px;
+  padding: 10px 20px;
+}
+
+.sb__mole-counter {
+  flex: 1 0 0;
+  text-align: right;
+}
+
+.sb__score {
+  color: #88c0d0;
+}
+
+.sb__moles {
+  color: #bf616a;
+}
+
+.sb__score-holder {
+  flex: 1 0 0;
+}
+
+.sb__game-over--hidden {
+  display: none;
+}
+
+/* ANIMATIONS */
+@keyframes whacked {
+  0% {
+    transform: translate(-4px, 0);
+  }
+  25% {
+    transform: translate(0, -4px);
+  }
+  50% {
+    transform: translate(4px, 0);
+  }
+  75% {
+    transform: translate(0, 4px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

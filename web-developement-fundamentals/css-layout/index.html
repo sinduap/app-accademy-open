@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="layout.css" />
+  </head>
+  <body>
+    <form class="form" action="/form-handling-url" method="post">
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">Add user</legend>
+
+        <div class="form__wrapper">
+          <div class="form__row">
+            <label for="firstName">First name</label>
+            <input type="text" id="firstName" name="first_name" />
+          </div>
+
+          <div class="form__row">
+            <label for="lastName">Last name</label>
+            <input type="text" id="lastName" name="last_name" />
+          </div>
+
+          <div class="form__row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email_address" />
+          </div>
+
+          <div class="row-2-cols">
+            <div class="form__row">
+              <label for="role">Status</label>
+              <select id="role" name="user_role_name">
+                <option value="student">Student</option>
+                <option value="instructor">Instructor</option>
+                <option value="guest">Guest</option>
+              </select>
+            </div>
+
+            <div class="form__row">
+              <label for="date">Date</label>
+              <input type="date" id="date" name="date" />
+            </div>
+          </div>
+
+          <div class="form__row">
+            <p>Choose your favorite Web language:</p>
+            <div class="row-3-cols">
+              <div>
+                <input
+                  type="radio"
+                  id="html"
+                  name="fav_language"
+                  value="HTML"
+                />
+                <label for="html">HTML</label>
+              </div>
+              <div>
+                <input type="radio" id="css" name="fav_language" value="CSS" />
+                <label for="css">CSS</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="javascript"
+                  name="fav_language"
+                  value="JavaScript"
+                />
+                <label for="javascript">JS</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form__row">
+            <label for="comments">Comments</label>
+            <textarea id="comments" name="comments"></textarea>
+          </div>
+
+          <div class="form__row">
+            <div class="row-2-cols">
+              <div>
+                <input
+                  type="checkbox"
+                  id="signup"
+                  name="signup"
+                  value="Signup"
+                />
+                <label for="signup">Sign up for news letter</label><br />
+              </div>
+              <div>
+                <input type="checkbox" id="terms" name="terms" value="Terms" />
+                <label for="terms"> Agree to terms and conditions</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form__row">
+            <button type="submit">Submit</button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
