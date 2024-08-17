@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="shortcut icon"
+      href="../images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <title>SPQR - Senatus PopulusQue Romanus</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__logo">
+            <img
+              src="../images/spqr-sign.png"
+              alt="SPQR Sign"
+              class="nav__img"
+            />
+            <p class="nav__title">Senatus PopulusQue Romanus</p>
+          </li>
+          <li><a class="nav__item" href="/">home</a></li>
+          <li><a class="nav__item" href="/contact">contact</a></li>
+          <li><a class="nav__item" href="/references">references</a></li>
+          <li><a class="nav__item" href="/gallery">gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <h1 class="heading-primary">Contact</h1>
+
+        <fieldset>
+          <form class="form" action="/form-handler" method="post">
+            <div class="form__row space-between">
+              <label for="name">Name :</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Sindu Andita Pratama"
+              />
+            </div>
+            <div class="form__row space-between">
+              <label for="country">Country :</label>
+              <input
+                type="text"
+                name="country"
+                id="country"
+                placeholder="Indonesia"
+              />
+            </div>
+            <div class="form__row">
+              <label for="interested"
+                >Are you interested in Roman history?</label
+              >
+              <input
+                type="checkbox"
+                name="interested"
+                id="interested"
+                checked
+              />
+            </div>
+
+            <label for="comment">Share your thoughts :</label>
+            <textarea name="comment" id="comment" name="comment"></textarea>
+
+            <button type="submit">Submit</button>
+          </form>
+        </fieldset>
+      </div>
+    </main>
+  </body>
+</html>
