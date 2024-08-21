@@ -6,3 +6,4 @@ Contains notes, exercises, and projects on each courses.
 ## Courses
 
 1. [Web Development Fundamentals (prepwork)](web-developement-fundamentals/)
+2. [JavaScript Fundamentals](javascript-fundamentals/)
