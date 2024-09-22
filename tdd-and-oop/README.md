@@ -10,3 +10,4 @@
 
 - [Reading Tests](reading-test/)
 - [Single Responsibility Principle](single-responsibility-principle/)
+- [DRY](dry/)
