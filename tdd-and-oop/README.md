@@ -15,3 +15,9 @@
 ### Clean Maintainable Code Project
 
 - [Rock Paper Scissors](rock-paper-scissor/)
+
+## Object-Oriented Programming
+
+### OOP & Classes
+
+- [Class Syntax](class-syntax/)
