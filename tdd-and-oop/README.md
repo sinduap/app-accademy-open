@@ -22,3 +22,4 @@
 
 - [Class Syntax](class-syntax/)
 - [Inheritance](inheritance/)
+- [Polymorphism](polymorphism/)
