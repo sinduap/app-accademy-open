@@ -32,3 +32,4 @@
   - ### OOP Challenge Projects
 
     - [Adventure](adventure/)
+    - [Adventure Combat](adventure-combat/)
