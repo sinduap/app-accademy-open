@@ -28,3 +28,7 @@
 
     - [Class Employee Manager](class-employee-manager/)
     - [Class Dragons](class-dragons/)
+
+  - ### OOP Challenge Projects
+
+    - [Adventure](adventure/)
