@@ -33,3 +33,7 @@
 
     - [Adventure](adventure/)
     - [Adventure Combat](adventure-combat/)
+
+  - ### Context in JavaScript
+
+    - [Context in Regular Functions](context-regular-functions/)
