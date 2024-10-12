@@ -37,3 +37,4 @@
   - ### Context in JavaScript
 
     - [Context in Regular Functions](context-regular-functions/)
+    - [Bind](bind/)
