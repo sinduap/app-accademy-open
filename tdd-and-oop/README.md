@@ -38,3 +38,4 @@
 
     - [Context in Regular Functions](context-regular-functions/)
     - [Bind](bind/)
+    - [Call and Apply](call-apply/)
