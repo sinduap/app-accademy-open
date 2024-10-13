@@ -39,3 +39,7 @@
     - [Context in Regular Functions](context-regular-functions/)
     - [Bind](bind/)
     - [Call and Apply](call-apply/)
+
+  - ### Context in Arrow Functions
+
+    - [Arrow Functions Review](arrow-function-review/)
