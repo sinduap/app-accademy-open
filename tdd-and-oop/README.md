@@ -48,3 +48,6 @@
   - ### Basic Projects
 
     - [Context](context/)
+
+  - ## Challenge Projects
+    - [Tic-Tac-Toe](tic-tac-toe/)
