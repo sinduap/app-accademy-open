@@ -49,11 +49,17 @@
 
     - [Context](context/)
 
-  - ## Challenge Projects
+  - ### Challenge Projects
+
     - [Tic-Tac-Toe](tic-tac-toe/)
     - [Connect Four](connect-four/)
 
 - ## Test Driven Development Basics
 
   - ### Error Handling
-  - [Error Handling](error-handling/)
+
+    - [Error Handling](error-handling/)
+
+  - ### Testing
+
+    - [Unit Testing](unit-testing/)
