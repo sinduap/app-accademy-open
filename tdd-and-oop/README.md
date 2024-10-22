@@ -67,3 +67,8 @@
   - ### Basic Project
 
     - [TTD Style](tdd-style/)
+
+  - ### Challenge Projects
+
+    - Adventures TDD (on-progress)
+    - [Tic-Tac-Toe TDD](tic-tac-toe-tdd/)
