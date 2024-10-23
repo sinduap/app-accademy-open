@@ -72,3 +72,8 @@
 
     - Adventures TDD (on-progress)
     - [Tic-Tac-Toe TDD](tic-tac-toe-tdd/)
+
+- ## Intermediate Test Driven Development
+
+  - ### Custom Errors and ES6 Classes
+  - [Custom Error Types](custom-error-types/)
