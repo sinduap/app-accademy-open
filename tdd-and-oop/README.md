@@ -76,4 +76,9 @@
 - ## Intermediate Test Driven Development
 
   - ### Custom Errors and ES6 Classes
-  - [Custom Error Types](custom-error-types/)
+
+    - [Custom Error Types](custom-error-types/)
+    - [ES6 Classes](es6-classes/)
+
+  - ### Challenge Projects
+    - Bejeweled (on-progress)
