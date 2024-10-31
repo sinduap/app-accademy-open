@@ -1,7 +1,7 @@
 # JavaScript Fundamentals
 
-## Advanced Array Methods
+- ## Advanced Array Methods
 
-### Advanced Array Project
+  - ### Advanced Array Project
 
-- [Advanced Array](advanced-array/)
+    - [Advanced Array](advanced-array/)
