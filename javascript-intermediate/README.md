@@ -1,41 +1,41 @@
 # JavaScript Intermediate
 
-## Objects
+- ## Objects
 
-### JavaScript Objects
+  - ### JavaScript Objects
 
-- [VSCode Debugger](vscode-debugger/)
+    - [VSCode Debugger](vscode-debugger/)
 
-### Objects Project
+  - ### Objects Project
 
-- [POJO](pojo/)
+    - [POJO](pojo/)
 
-## Callbacks
+- ## Callbacks
 
-### Callback Project
+  - ### Callback Project
 
-- [Callbacks](callbacks/)
+    - [Callbacks](callbacks/)
 
-## Scope and Closures
+- ## Scope and Closures
 
-### Scope Project
+  - ### Scope Project
 
-- [Scope](scope/)
+    - [Scope](scope/)
 
-## Recursion
+- ## Recursion
 
-### Recursion Project
+  - ### Recursion Project
 
-- [Solving Problems Recursively](solving-problems-recursively/)
-- [Debugging Recursive Solutions](debugging-recursive-solutions/)
+    - [Solving Problems Recursively](solving-problems-recursively/)
+    - [Debugging Recursive Solutions](debugging-recursive-solutions/)
 
-## Asynchronicity
+- ## Asynchronicity
 
-### Timeout Project
+  - ### Timeout Project
 
-- [Timeout Phase 1](timeout-phase-1/)
-- [Timeout Phase 2](timeout-phase-2/)
+    - [Timeout Phase 1](timeout-phase-1/)
+    - [Timeout Phase 2](timeout-phase-2/)
 
-### Guessing Game Project
+  - ### Guessing Game Project
 
-- [Guessing Game](guessing-game/)
+    - [Guessing Game](guessing-game/)
