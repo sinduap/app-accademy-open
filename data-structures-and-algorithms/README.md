@@ -9,3 +9,4 @@
   - ### Big-O Practice
 
     - [Big-O Practice](big-o-practice/)
+    - [Array Practice](array-practice/)
