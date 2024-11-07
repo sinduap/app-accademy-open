@@ -11,3 +11,7 @@
     - [Big-O Practice](big-o-practice/)
     - [Array Practice](array-practice/)
     - [Array Long Practice](array-long-practice/)
+
+  - ### Logic and Memory
+
+    - [Binary Practice](binary-practice/)
