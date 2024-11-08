@@ -15,3 +15,4 @@
   - ### Logic and Memory
 
     - [Binary Practice](binary-practice/)
+    - [Binary Logic Long Practice](binary-logic-long-practice/)
