@@ -16,3 +16,9 @@
 
     - [Binary Practice](binary-practice/)
     - [Binary Logic Long Practice](binary-logic-long-practice/)
+
+- ## Data Structures I
+
+  - ### Arrays ans Stacks
+
+    - [Dynamic Array Practice](dynamic-arrays-practice/)
