@@ -22,3 +22,4 @@
   - ### Arrays ans Stacks
 
     - [Dynamic Array Practice](dynamic-arrays-practice/)
+    - [Dynamic Array Long Practice](dynamic-arrays-long-practice/)
